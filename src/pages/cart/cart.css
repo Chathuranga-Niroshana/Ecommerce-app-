@@ -1,0 +1,76 @@
+.titleName{
+    font-size: 30px;
+    color: rgb(26, 19, 246);
+    text-shadow: 1px 1px 4px black;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CartItem {
+    width: 700px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+  }
+  
+  .CartItem img {
+    width: 150px;
+  }
+  
+  .CartItem .description {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .CartItem:hover{
+    background: rgb(237, 227, 227);
+    color: crimson;
+  }
+  .countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+    border: none;
+    height: 30px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  .countHandler button{
+    border-radius: 15px;
+    border: none;
+    width: 30px;
+    font-size: 15px;
+    height: 30px;
+    background: rgb(222, 118, 118);
+    text-align: center;
+  }
+  .countHandler button:hover{
+    background: red;
+  }
+  .checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .checkout h1 {
+    margin: 50px;
+    cursor: pointer;
+  }
+  .checkout button:hover {
+    font-size: 1.01em;
+    background-color: rgb(226, 50, 50);
+    color: black;
+  }
